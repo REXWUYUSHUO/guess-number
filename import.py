@@ -9,6 +9,7 @@ while True:
     num = int(num)
     if num == r:
         print('you got the point')
+        print('這是你猜的第', count, '次')
         break
     elif num > r:
         print('比答案大要猜小一點')
